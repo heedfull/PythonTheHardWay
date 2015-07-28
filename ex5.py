@@ -10,8 +10,8 @@ height_cm = height * 2.54
 weight_kg = weight / 2.205
 
 print "Let's talk about %s." % name
-print "He's %d inches (%d cm) tall." % (height,height_cm)
-print "He's %d pounds (%d kgs) heavy." % (weight, weight_kg)
+print "He's %d inches (%2d cm) tall." % (height,height_cm)
+print "He's %d pounds (%0.2f kgs) heavy." % (weight, weight_kg)
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are usually %s depending on the coffee." % teeth
