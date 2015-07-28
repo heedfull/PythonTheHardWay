@@ -17,7 +17,7 @@ print "I said: %r." % x
 # print y with some text before in a format used for display strings to users
 print "I also said: '%s'." % y
 
-# set the variable hilarious to false
+# set the variable hilarious to true
 hilarious = True
 # create a string with a format character
 joke_evaluation = "Isn't that joke so funny?! %r"
